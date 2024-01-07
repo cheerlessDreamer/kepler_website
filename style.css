@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+span {
+    color: rgb(201, 155, 74);
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100%;
+    max-width: 500px;
+}
+
+button {
+    background-color: rgb(201, 155, 74);
+    border: none;
+    border-radius: 5px;
+    color: rgb(25, 25, 25);
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 1.5rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 24px 64px 5px rgba(201, 155, 74, 0.5);
+}
+
+button:hover {
+    background-color: rgb(218, 189, 140);
+    color: rgb(25, 25, 25);
+    box-shadow: 0 24px 64px 5px rgba(218, 189, 140, 0.5);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 5rem;
+}
+
+footer {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin-top: -5rem;
+}
