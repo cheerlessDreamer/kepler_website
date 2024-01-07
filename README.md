@@ -1,6 +1,6 @@
 # Kepler – Public Website
 
-> This repo houses the code for the public website at **getkepler.live**
+> This repo houses the code for the [public homepage](https://getkepler.live) of Kepler.
 
 The waitlist form is powered by Tally.so, and the database lives within Notion.
 
